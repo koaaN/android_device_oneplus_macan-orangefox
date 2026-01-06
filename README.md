@@ -1,4 +1,4 @@
-# OnePlus 15R infiniti OrangeFox device tree
+# OnePlus 15R/ACE6T macan OrangeFox device tree
 
 ## Working
 
