@@ -34,7 +34,7 @@ cd sync
 cd ~/android/fox_14.1/device
 mkdir -p oneplus
 cd oneplus
-git clone https://github.com/koaaN/android_device_macan-orangefox macan
+git clone https://github.com/koaaN/android_device_oneplus_macan-orangefox macan
 ```
 ### BUILD!
 ```
