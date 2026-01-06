@@ -8,7 +8,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 #
 
-LOCAL_PATH := device/oneplus/infiniti
+LOCAL_PATH := device/oneplus/macan
 
 # Shipping API level
 BOARD_SHIPPING_API_LEVEL := 34
