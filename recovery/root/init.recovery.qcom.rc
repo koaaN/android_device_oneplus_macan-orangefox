@@ -64,7 +64,6 @@ on property:twrp.modules.loaded=true
     write /sys/kernel/boot_adsp/ssr 1
     wait /sys/class/power_supply/battery
     start vendor.health-default
-    start vendor.oplus.vibrator
     umount /firmware
 
 on property:ro.crypto.state=encrypted && property:ro.boot.dynamic_partitions=true
@@ -76,6 +75,4 @@ on property:hwservicemanager.ready=true
 on property:vendor.sys.listeners.registered=true
     start vendor.ssgtzd
     start vendor.keymint-strongbox
-
-service my_mvTouch_script /system/bin/sh /vendor/bin/mvTouch.sh
-    user root
+    start vendor.oplus.vibrator
