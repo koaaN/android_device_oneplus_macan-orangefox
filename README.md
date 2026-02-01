@@ -4,6 +4,7 @@
 
 - [X] Display
 - [X] Touch 
+- [X] Decryption
 - [?] Flashing
 - [?] Backup & Restore
 - [?] KernelSU, KernelSU Next & SukiSU Ultra Installer
@@ -13,7 +14,6 @@
 
 ## Not working
 
-- [ ] Decryption
 - [ ] Vibration
 - [ ] Flashlight
 
